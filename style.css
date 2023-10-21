@@ -1,0 +1,52 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: "Poppins", sans-serif; background-color: #f0f0f0; color: #333; transition: all 0.4s ease-in; }
+
+h1 { text-align: center; margin-top: 1.25rem; }
+
+.container { display: grid; width: 100%; min-height: calc(100vh - 4.25rem); place-content: center; gap: 1rem; text-align: center; }
+
+#element {
+    padding: 250px;
+    font-size: 3rem;
+    text-align: center;
+}
+.light{
+    background-color: antiquewhite;
+    color:black;
+}
+.dark{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+section {
+    background-color: #eee;
+    padding: 5rem;
+}
+Shared in
+
+<button>Click to fade in boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+
+
+#panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: blue;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
